@@ -1,0 +1,98 @@
+/* Mobile & Tablet */
+@media (max-width: 991px) { 
+    .header__cart-content {
+        display: none;
+    }
+    .header__nav-mobile-bars {
+        line-height: 120px;
+        font-size: 2rem;
+    }
+    .header__mobile-search.header__search {
+        display: block;
+    }
+    .section-paragraph {
+        padding: 0;
+    }
+    .new-letter-heading {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+}
+/* Mobile */
+@media (max-width: 575px) {
+    .header__nav-mobile-bars {
+        left: 16px;
+    }
+    .header__cart-group {
+        margin-left: 40px;
+        
+    }
+    .header__cart-group-item {
+        padding: 0 4px 24px;
+    }
+    .tabs .tabs-title {
+        list-style: none;
+        display: block;
+        
+    }
+    .tabs .li_tab {
+        margin: 8px 4px;
+    }
+    .tabs .li_tab_link {
+        padding: 12px 20px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 400;
+        background: #fff;
+        border: 1px solid #91ad41;
+        border-radius: 28px;
+        font-size: 13px;
+        display: none;
+    }
+    .tabs .li_tab.active .li_tab_link {
+        color: #000;
+        background: #fff;
+        display: block;
+    }
+    .section__hotline {
+        background-attachment: scroll;
+    }
+    .form-new-letter {
+        display: block;
+    }
+    .form-new-letter input {
+        margin-bottom: 12px;
+    }
+    .form-new-letter button {
+        position: relative;
+        width: 100%;
+    }
+    .footer-links {
+        display: none;
+        margin: 8px 0;
+    }
+    .footer-title-mobile {
+        padding-bottom: 8px;
+        margin-top: 16px;
+        text-transform: uppercase;
+        position: relative;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    nav.header__nav {
+        padding: 0;
+    }
+
+    
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
